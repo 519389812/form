@@ -25,7 +25,7 @@ SECRET_KEY = '$u%t9f#qt^jm5vs*vw^f+clp%nvd&-nln=w1pp8rz8x=0laba+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -75,20 +75,20 @@ WSGI_APPLICATION = 'form.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-
     'default': {
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'dbname',   #数据库名
-    'USER': 'username',    #用户名
-    'PASSWORD': '123456',
-    'HOST': 'hostname',
-    'PORT': '3306',
-    'CHARSET':'utf8',##设置字符集，不然会出现中文乱码
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+
+    # 'default': {
+    # 'ENGINE': 'django.db.backends.mysql',
+    # 'NAME': '519389812$default',
+    # 'USER': '519389812',
+    # 'PASSWORD': 'zjss123456',
+    # 'HOST': '519389812.mysql.pythonanywhere-services.com',
+    # 'PORT': '3306',
+    # 'CHARSET':'utf8',
+    # }
 }
 
 
