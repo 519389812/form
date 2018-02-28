@@ -11,40 +11,30 @@ class PivotForm(forms.Form):
 
 class RateForm(forms.ModelForm):
     id = forms.IntegerField(required=False, widget=forms.HiddenInput())
-    staff = forms.CharField(max_length=30, required=True, label="员工 Staff", disabled=True, initial="张三 Zhang San",
-                            widget=widgets.TextInput(attrs={"class": "form-control input-lg"}))
+    staff = forms.CharField(max_length=30, required=False, initial="整体", widget=forms.HiddenInput())
     greeting = forms.IntegerField(
-        label="问候 Greeting",
-        required=True,
-        widget=widgets.Select(
-            choices=((2, '非常满意 Very Good'), (1, '满意 Good'), (0, '一般 Normal'), (-1, '有待提升 Bad'), (-2, '非常遗憾 Very Bad')),
-            attrs={"class": "form-control input-lg"},
-        )
+        required=False,
+        initial=0,
+        widget=forms.HiddenInput(),
     )
     eye_contact = forms.IntegerField(
-        label="目光交流 eye contact",
-        required=True,
-        widget=widgets.Select(
-            choices=((2, '非常满意 Very Good'), (1, '满意 Good'), (0, '一般 Normal'), (-1, '有待提升 Bad'), (-2, '非常遗憾 Very Bad')),
-            attrs={"class": "form-control input-lg"},
-        )
+        required=False,
+        initial=0,
+        widget=forms.HiddenInput(),
     )
     smile = forms.IntegerField(
-        label="微笑 smile",
-        required=True,
-        widget=widgets.Select(
-            choices=((2, '非常满意 Very Good'), (1, '满意 Good'), (0, '一般 Normal'), (-1, '有待提升 Bad'), (-2, '非常遗憾 Very Bad')),
-            attrs={"class": "form-control input-lg"},
-        )
+        required=False,
+        initial=0,
+        widget=forms.HiddenInput(),
     )
     message = forms.CharField(
-        label="留言 message",
-        required=False,
+        label="留言 Message (最大长度150个汉字 Max length 300 characters)",
+        required=True,
         max_length=300,
         widget=widgets.Textarea(
             attrs={
                 "class": "form-control input-lg",
-                "placeholder": "选填，最大长度:150个汉字\nOptional,  max length with 300 characters",
+                "placeholder": "请留下您对我们的意见和建议\nPlease leave your comments and suggestions",
             }
         )
     )
@@ -56,9 +46,9 @@ class RateForm(forms.ModelForm):
         fields = "__all__"
 
 
-class RateFormid123456(forms.ModelForm):
+class RateFormid778487(forms.ModelForm):
     id = forms.IntegerField(required=False, widget=forms.HiddenInput())
-    staff = forms.CharField(max_length=30, required=True, label="员工 Staff", disabled=False, initial=staff.id123456,
+    staff = forms.CharField(max_length=30, required=True, label="员工 Staff", disabled=True, initial=staff.id778487,
                             widget=widgets.TextInput(attrs={"class": "form-control input-lg"}))
     greeting = forms.IntegerField(
         label="问候 Greeting",
@@ -69,7 +59,7 @@ class RateFormid123456(forms.ModelForm):
         )
     )
     eye_contact = forms.IntegerField(
-        label="目光交流 eye contact",
+        label="目光交流 Eye contact",
         required=True,
         widget=widgets.Select(
             choices=((2, '非常满意 Very Good'), (1, '满意 Good'), (0, '一般 Normal'), (-1, '有待提升 Bad'), (-2, '非常遗憾 Very Bad')),
@@ -77,7 +67,7 @@ class RateFormid123456(forms.ModelForm):
         )
     )
     smile = forms.IntegerField(
-        label="微笑 smile",
+        label="微笑 Smile",
         required=True,
         widget=widgets.Select(
             choices=((2, '非常满意 Very Good'), (1, '满意 Good'), (0, '一般 Normal'), (-1, '有待提升 Bad'), (-2, '非常遗憾 Very Bad')),
@@ -85,7 +75,7 @@ class RateFormid123456(forms.ModelForm):
         )
     )
     message = forms.CharField(
-        label="留言 message",
+        label="留言 Message",
         required=False,
         max_length=300,
         widget=widgets.Textarea(

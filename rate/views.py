@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rate.forms import PivotForm, RateForm, RateFormid123456
+from rate.forms import PivotForm, RateForm, RateFormid778487
 from django.http import HttpResponse, HttpResponseRedirect
 from rate.models import Rate
 import xlwt
@@ -139,7 +139,7 @@ def invalided(request):
     return render(request, 'invalided.html')
 
 
-def id123456(request):
+def id778487(request):
     if request.method == 'POST':
         try:
             if 'HTTP_X_FORWARDED_FOR' in request.META.keys():
@@ -154,7 +154,7 @@ def id123456(request):
                 return HttpResponseRedirect('/invalided/')
         else:
             pass
-        form = RateFormid123456(request.POST)
+        form = RateFormid778487(request.POST)
         if form.is_valid():
             save_form = form.save(commit=False)
             save_form.ip_address = ip
@@ -163,5 +163,5 @@ def id123456(request):
             return HttpResponseRedirect('/success/')
 
     else:
-        form = RateFormid123456()
-    return render(request, 'id123456.html', {'form': form})
+        form = RateFormid778487()
+    return render(request, 'id778487.html', {'form': form})
