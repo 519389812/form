@@ -24,5 +24,5 @@ urlpatterns = [
     url(r'^invalided/$', rate_views.invalided, name='invalided'),
     url(r'^pivot/$', rate_views.pivot, name='pivot'),
     url(r'^pivot_export/$', rate_views.pivot_export, name='pivot_export'),
-    url(r'^id778487/$', rate_views.id778487, name='id778487'),
+    url(r'^778487/$', rate_views.add_rate, name='778487'),
 ]

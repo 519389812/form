@@ -1,13 +1,13 @@
 from django.shortcuts import render
-from rate.forms import PivotForm, RateForm, RateFormid778487
+from rate.forms import PivotForm, RateForm
 from django.http import HttpResponse, HttpResponseRedirect
 from rate.models import Rate
 import xlwt
-from io import StringIO
-import time, datetime
+import datetime
 
 
 def add_rate(request):
+    path = request.get_full_path().strip('/')  # 获取当前访问url  不带参数：request.path﻿﻿
     if request.method == 'POST':
         try:
             if 'HTTP_X_FORWARDED_FOR' in request.META.keys():
@@ -18,7 +18,7 @@ def add_rate(request):
             ip = ''
         if ip != '':
             ip_database = Rate.objects.filter(ip_address=ip)
-            if len(ip_database) > 0:
+            if len(ip_database) > 2:
                 return HttpResponseRedirect('/invalided/')
         else:
             pass
@@ -32,7 +32,7 @@ def add_rate(request):
 
     else:
         form = RateForm()
-    return render(request, 'add_rate.html', {'form': form})
+    return render(request, '{}.html'.format(path), {'form': form})
 
 
 date_from = ""
@@ -54,52 +54,53 @@ def pivot_export(request):
     w.write(0, 0, u"序号")
     w.write(0, 1, u"员工")
     w.write(0, 2, u"评价数量")
-    w.write(0, 3, u"问候得分")
-    w.write(0, 4, u"问候得分均值")
-    w.write(0, 5, u"目光交流得分")
-    w.write(0, 6, u"目光交流得分均值")
-    w.write(0, 7, u"微笑得分")
-    w.write(0, 8, u"微笑得分均值")
-    w.write(0, 9, u"留言数量")
-    w.write(0, 10, u"总分")
-    w.write(0, 11, u"总分均值")
+    w.write(0, 3, u"服务得分")
+    w.write(0, 4, u"服务得分均值")
+    w.write(0, 5, u"效率得分")
+    w.write(0, 6, u"效率得分均值")
+    w.write(0, 7, u"留言数量")
+    w.write(0, 8, u"总分")
+    w.write(0, 9, u"总分均值")
+    w1 = wb.add_sheet("留言报表{}-{}".format(date_from.date(), date_until.date()))
+    w1.write(0, 0, u"员工")
+    w1.write(0, 1, u"留言")
     if list_obj:
         data = {}
         id_ = 1
+        row = 1
         # 写入数据
         for obj in list_obj:
             if obj.staff in data:
                 data[obj.staff]['2'] += 1
-                data[obj.staff]['3'] += obj.greeting
-                data[obj.staff]['4'] = round(data[obj.staff][3]/data[obj.staff][2], 2)
-                data[obj.staff]['5'] += obj.eye_contact
-                data[obj.staff]['6'] = round(data[obj.staff][5]/data[obj.staff][2], 2)
-                data[obj.staff]['7'] += obj.smile
-                data[obj.staff]['8'] = round(data[obj.staff][7]/data[obj.staff][2], 2)
+                data[obj.staff]['3'] += obj.service
+                data[obj.staff]['4'] = round(data[obj.staff]['3']/data[obj.staff]['2'], 2)
+                data[obj.staff]['5'] += obj.efficiency
+                data[obj.staff]['6'] = round(data[obj.staff]['5']/data[obj.staff]['2'], 2)
                 if obj.message != " ":
-                    data[obj.staff]['9'] += 1
+                    data[obj.staff]['7'] += 1
+                    data[obj.staff]['10'].append(obj.message)
                 else:
                     pass
-                data[obj.staff]['10'] = data[obj.staff][3] + data[obj.staff][5] + data[obj.staff][7]
-                data[obj.staff]['11'] = round(data[obj.staff]['10']/3, 2)
+                data[obj.staff]['8'] = data[obj.staff]['3'] + data[obj.staff]['5']
+                data[obj.staff]['9'] = round(data[obj.staff]['8']/2, 2)
             else:
                 data[obj.staff] = {}
+                data[obj.staff]['10'] = []
                 data[obj.staff]['0'] = id_
                 id_ += 1
                 data[obj.staff]['1'] = obj.staff
                 data[obj.staff]['2'] = 1
-                data[obj.staff]['3'] = obj.greeting
-                data[obj.staff]['4'] = obj.greeting
-                data[obj.staff]['5'] = obj.eye_contact
-                data[obj.staff]['6'] = obj.eye_contact
-                data[obj.staff]['7'] = obj.smile
-                data[obj.staff]['8'] = obj.smile
+                data[obj.staff]['3'] = obj.service
+                data[obj.staff]['4'] = obj.service
+                data[obj.staff]['5'] = obj.efficiency
+                data[obj.staff]['6'] = obj.efficiency
                 if obj.message:
-                    data[obj.staff]['9'] = 1
+                    data[obj.staff]['7'] = 1
+                    data[obj.staff]['10'].append(obj.message)
                 else:
-                    data[obj.staff]['9'] = 0
-                data[obj.staff]['10'] = obj.greeting + obj.eye_contact + obj.smile
-                data[obj.staff]['11'] = round(data[obj.staff]['10']/3, 2)
+                    data[obj.staff]['7'] = 0
+                data[obj.staff]['8'] = obj.service + obj.efficiency
+                data[obj.staff]['9'] = round(data[obj.staff]['8']/2, 2)
         for s in data.keys():
             w.write(data[s]['0'], 0, data[s]['0'])
             w.write(data[s]['0'], 1, data[s]['1'])
@@ -111,8 +112,10 @@ def pivot_export(request):
             w.write(data[s]['0'], 7, data[s]['7'])
             w.write(data[s]['0'], 8, data[s]['8'])
             w.write(data[s]['0'], 9, data[s]['9'])
-            w.write(data[s]['0'], 10, data[s]['10'])
-            w.write(data[s]['0'], 11, data[s]['11'])
+            for i in data[s]['10']:
+                w1.write(row, 0, data[s]['1'])
+                w1.write(row, 1, i)
+                row += 1
     response = HttpResponse(content_type='application/vnd.ms-excel')
     response['Content-Disposition'] = 'attachment;filename=服务评价报表.xls'
     wb.save(response)
@@ -139,29 +142,3 @@ def invalided(request):
     return render(request, 'invalided.html')
 
 
-def id778487(request):
-    if request.method == 'POST':
-        try:
-            if 'HTTP_X_FORWARDED_FOR' in request.META.keys():
-                ip = request.META['HTTP_X_FORWARDED_FOR']
-            else:
-                ip = request.META['REMOTE_ADDR']
-        except:
-            ip = ''
-        if ip != '':
-            ip_database = Rate.objects.filter(ip_address=ip)
-            if len(ip_database) > 0:
-                return HttpResponseRedirect('/invalided/')
-        else:
-            pass
-        form = RateFormid778487(request.POST)
-        if form.is_valid():
-            save_form = form.save(commit=False)
-            save_form.ip_address = ip
-            save_form.save()
-            form.save_m2m()
-            return HttpResponseRedirect('/success/')
-
-    else:
-        form = RateFormid778487()
-    return render(request, 'id778487.html', {'form': form})

@@ -3,8 +3,8 @@ from .models import Rate
 
 
 class RateAdmin(admin.ModelAdmin):
-    list_display = ['id', 'staff', 'greeting', 'eye_contact', 'smile', 'message', 'time', 'ip_address']
-    list_filter = ('greeting', 'eye_contact', 'smile', 'message', 'time',)  # 过滤器
+    list_display = ['id', 'staff', 'service', 'efficiency', 'message', 'time', 'ip_address']
+    list_filter = ('service', 'efficiency', 'message', 'time',)  # 过滤器
     search_fields = ('staff',)  # 搜索字段
     date_hierarchy = 'time'  # 详细时间分层筛选　
 

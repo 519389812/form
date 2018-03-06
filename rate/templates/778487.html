@@ -100,46 +100,56 @@
 			<div class="fh5co-hero-wrap">
 				<div class="fh5co-hero-intro">
 					<h1 class="to-animate hero-animate-1">请您对我们的服务进行评价!</h1>
-					<h1 class="to-animate hero-animate-2">Please rate us!</h1>
+					<h1 class="to-animate hero-animate-2">Please evaluate the service you've received!</h1>
 				</div>
 			</div>
 		</div>
 
 		<div id="fh5co-main">
-			<div id="fh5co-contact">
 			<div class="col-md-12">
 				<br class="row">
 					<div class="col-md-8">
 						<div align="center">
-							<img src="../../static/images/photos/id778487.jpg" height="300" width="200" />
+							<img src="../../static/images/photos/唐琴778487.jpg" height="300" width="200" />
 						</div>
-						<form action="/id778487/" method='POST' >
+						<form action="/add_rate/" method='POST' >
 							<div class="col-md-12">
 								<div class="form-group">
 									{% csrf_token %}
-									{{form}}
+									<div><input type="hidden" value="唐琴778487" name="staff" ></div>
+									<div>服务水平 Service: <select type="select" required="required" name="service" class="form-control input-lg">
+										<option value=5>非常满意 Perfect</option>
+										<option value=4>满意 Good</option>
+										<option value=3>一般 Normal</option>
+										<option value=2>有待提升 Not Good</option>
+										<option value=1>遗憾 Bad</option>
+										</select></div>
+									<div>办理效率 Efficiency: <select type="select" required="required" name="efficiency" class="form-control input-lg">
+										<option value=5>非常满意 Perfect</option>
+										<option value=4>满意 Good</option>
+										<option value=3>一般 Normal</option>
+										<option value=2>有待提升 Not Good</option>
+										<option value=1>遗憾 Bad</option>
+										</select></div>
+									<div>备注 Comments: <textarea class="form-control input-lg" placeholder="选填，最大长度150个汉字  Optional,max 300 characters" maxlength=300 name="message" rows="4"></textarea></div>
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<input type="submit" value="Submit 提交" class="btn btn-primary btn-lg ">
+									<input type="submit" value="提交 Submit" class="btn btn-primary btn-lg ">
+									<input type="reset" value="重置 Reset" class="btn btn-primary btn-lg">
 								</div>
 							</div>
 						</form>
 					</div>
 					<div class="col-md-4">
-
 						<br/><br/>
-						<h3>整体服务感受</h3>
-						<h3>Our whole service</h3>
-						<p>欢迎您留下对我们整体的服务感受，请点击以下链接</p>
-						<p>please click on the link below to leave your overall service experience.</p>
-						<p>
-							<a href="../add_rate">留言 Message</a>
-						</p>
+						<h3>感谢您对我们的评价！</h3>
+						<p>您的满意是我们最大的动力.</p>
+						<h3>Thank you!</h3>
+						<p>Your satisfaction is our greatest motivation.</p>
 					</div>
 				</div>
-			</div>
 			</div>
 
 		</div>
