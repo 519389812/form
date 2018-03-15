@@ -3,9 +3,9 @@ from .models import Rate
 
 
 class RateAdmin(admin.ModelAdmin):
-    list_display = ['id', 'staff', 'service', 'efficiency', 'message', 'time', 'ip_address']
-    list_filter = ('service', 'efficiency', 'message', 'time',)  # 过滤器
-    search_fields = ('staff',)  # 搜索字段
+    list_display = ['id', 'staff', 'service', 'efficiency', 'message', 'flight', 'details', 'time', 'ip_address']
+    list_filter = ('service', 'efficiency', 'message', 'flight', 'details', 'time',)  # 过滤器
+    search_fields = ('staff', 'name', 'details', 'flight',)  # 搜索字段
     date_hierarchy = 'time'  # 详细时间分层筛选　
 
 

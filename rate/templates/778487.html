@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Please rate us</title>
+	<title>服务评价</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -66,6 +66,91 @@
 	<!--[if lt IE 9]>
 	<script src="../../static/js/respond.min.js"></script>
 	<![endif]-->
+	<script src="../../static/js/jquery-3.1.1.min.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$('#service').change(function(){
+			var service = $('#service').val();
+			var efficiency = $('#efficiency').val();
+
+			if (service == 1 || service == 2 || efficiency == 1 || efficiency == 2)
+			{
+				if($("#tips").css("display")=='none')
+				{
+				$('#tips').show('fast',function(){
+					$('#flightDiv').show('fast',function(){
+						$('#detailsDiv').show('fast',function(){
+							$('#messageDiv').show('fast',function(){
+								$("#flight").attr("required", "true");
+								$("#details").attr("required", "true");
+								$("#message").attr("required", "true");
+							});
+						});
+					});
+				})
+				}
+			}
+			else
+			{
+				if($("#tips").css("display")=='block')
+				{
+				$('#tips').hide('fast',function(){
+					$('#flightDiv').hide('fast',function(){
+						$('#detailsDiv').hide('fast',function(){
+							$('#messageDiv').hide('fast',function(){
+								$("#flight").removeAttr("required");
+								$("#details").removeAttr("required");
+								$("#message").removeAttr("required");
+							});
+						});
+					});
+				})
+				}
+			}
+		});
+
+		$('#efficiency').change(function(){
+			var service = $('#service').val();
+			var efficiency = $('#efficiency').val();
+
+			if (service == 1 || service == 2 || efficiency == 1 || efficiency == 2)
+			{
+				if($("#tips").css("display")=='none')
+				{
+				$('#tips').show('fast',function(){
+					$('#flightDiv').show('fast',function(){
+						$('#detailsDiv').show('fast',function(){
+							$('#messageDiv').show('fast',function(){
+								$("#flight").attr("required", "true");
+								$("#details").attr("required", "true");
+								$("#message").attr("required", "true");
+							});
+						});
+					});
+				})
+				}
+			}
+			else
+			{
+				if($("#tips").css("display")=='block')
+				{
+				$('#tips').hide('fast',function(){
+					$('#flightDiv').hide('fast',function(){
+						$('#detailsDiv').hide('fast',function(){
+							$('#messageDiv').hide('fast',function(){
+								$("#flight").removeAttr("required");
+								$("#details").removeAttr("required");
+								$("#message").removeAttr("required");
+							});
+						});
+					});
+				})
+				}
+			}
+		});
+	})
+	</script>
 
 	</head>
 	<body class="inner-page">
@@ -81,7 +166,7 @@
 
 					<ul class="sf-menu" id="fh5co-primary-menu">
 						<li>
-							<a href="../add_rate">留言 Message</a>
+							<!-- <a href="../add_rate">留言 Message</a> -->
 						</li>
 					</ul>
 
@@ -117,25 +202,30 @@
 								<div class="form-group">
 									{% csrf_token %}
 									<div><input type="hidden" value="唐琴778487" name="staff" ></div>
-									<div>服务水平 Service: <select type="select" required="required" name="service" class="form-control input-lg">
+									<div>服务水平 Service: <select id='service' type="select" required="required" name="service" class="form-control input-lg">
 										<option value=5>非常满意 Perfect</option>
 										<option value=4>满意 Good</option>
 										<option value=3>一般 Normal</option>
 										<option value=2>有待提升 Not Good</option>
 										<option value=1>遗憾 Bad</option>
 										</select></div>
-									<div>办理效率 Efficiency: <select type="select" required="required" name="efficiency" class="form-control input-lg">
+									<div>办理效率 Efficiency: <select id='efficiency' type="select" required="required" name="efficiency" class="form-control input-lg">
 										<option value=5>非常满意 Perfect</option>
 										<option value=4>满意 Good</option>
 										<option value=3>一般 Normal</option>
 										<option value=2>有待提升 Not Good</option>
 										<option value=1>遗憾 Bad</option>
 										</select></div>
-									<div>备注 Comments: <textarea class="form-control input-lg" placeholder="选填，最大长度150个汉字  Optional,max 300 characters" maxlength=300 name="message" rows="4"></textarea></div>
+									<div id='tips' style='display:none'>
+										<br/><p>非常抱歉，我们没能让您满意，请您留下详细情况，帮助我们提升服务。</p><br/><p>We are very sorry that we did not satisfy you. Please leave your details and help us improve our service.</p>
+									</div>
+									<div id='flightDiv' style='display:none'>航班 Flight: <input type="text" id='flight' name="flight" class="form-control input-lg"></div>
+									<div id='detailsDiv' style='display:none'>座位号 Seat number: <input type="text" id='details' name="details" class="form-control input-lg"></div>
+									<div id='messageDiv' style='display:none'>情况描述 Brief description: <textarea id='message' class="form-control input-lg" placeholder="最大长度150个汉字  Max 300 characters" maxlength=300 name="message" rows="4"></textarea></div>
 								</div>
 							</div>
 							<div class="col-md-12">
-								<div class="form-group">
+								<div class="form-group" align="center">
 									<input type="submit" value="提交 Submit" class="btn btn-primary btn-lg ">
 									<input type="reset" value="重置 Reset" class="btn btn-primary btn-lg">
 								</div>
@@ -149,9 +239,7 @@
 						<h3>Thank you!</h3>
 						<p>Your satisfaction is our greatest motivation.</p>
 					</div>
-				</div>
 			</div>
-
 		</div>
 
 

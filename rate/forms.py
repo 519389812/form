@@ -1,6 +1,6 @@
 from django import forms
 from rate.models import Rate
-from django.forms import widgets
+# from django.forms import widgets
 
 
 class PivotForm(forms.Form):

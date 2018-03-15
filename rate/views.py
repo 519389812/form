@@ -63,7 +63,9 @@ def pivot_export(request):
     w.write(0, 9, u"总分均值")
     w1 = wb.add_sheet("留言报表{}-{}".format(date_from.date(), date_until.date()))
     w1.write(0, 0, u"员工")
-    w1.write(0, 1, u"留言")
+    w1.write(0, 1, u"航班")
+    w1.write(0, 2, u"座位号")
+    w1.write(0, 3, u"留言")
     if list_obj:
         data = {}
         id_ = 1
@@ -78,7 +80,9 @@ def pivot_export(request):
                 data[obj.staff]['6'] = round(data[obj.staff]['5']/data[obj.staff]['2'], 2)
                 if obj.message != " ":
                     data[obj.staff]['7'] += 1
-                    data[obj.staff]['10'].append(obj.message)
+                    data[obj.staff]['10'].append(obj.flight)
+                    data[obj.staff]['11'].append(obj.details)
+                    data[obj.staff]['12'].append(obj.message)
                 else:
                     pass
                 data[obj.staff]['8'] = data[obj.staff]['3'] + data[obj.staff]['5']
@@ -86,6 +90,8 @@ def pivot_export(request):
             else:
                 data[obj.staff] = {}
                 data[obj.staff]['10'] = []
+                data[obj.staff]['11'] = []
+                data[obj.staff]['12'] = []
                 data[obj.staff]['0'] = id_
                 id_ += 1
                 data[obj.staff]['1'] = obj.staff
@@ -96,7 +102,9 @@ def pivot_export(request):
                 data[obj.staff]['6'] = obj.efficiency
                 if obj.message:
                     data[obj.staff]['7'] = 1
-                    data[obj.staff]['10'].append(obj.message)
+                    data[obj.staff]['10'].append(obj.flight)
+                    data[obj.staff]['11'].append(obj.details)
+                    data[obj.staff]['12'].append(obj.message)
                 else:
                     data[obj.staff]['7'] = 0
                 data[obj.staff]['8'] = obj.service + obj.efficiency
@@ -112,9 +120,11 @@ def pivot_export(request):
             w.write(data[s]['0'], 7, data[s]['7'])
             w.write(data[s]['0'], 8, data[s]['8'])
             w.write(data[s]['0'], 9, data[s]['9'])
-            for i in data[s]['10']:
+            for i in range(data[s]['10']):
                 w1.write(row, 0, data[s]['1'])
-                w1.write(row, 1, i)
+                w1.write(row, 1, data[s]['10'][i])
+                w1.write(row, 2, data[s]['11'][i])
+                w1.write(row, 3, data[s]['12'][i])
                 row += 1
     response = HttpResponse(content_type='application/vnd.ms-excel')
     response['Content-Disposition'] = 'attachment;filename=服务评价报表.xls'
@@ -141,4 +151,15 @@ def success(request):
 def invalided(request):
     return render(request, 'invalided.html')
 
+
+def page_not_found(request):
+    return render(request, '404.html')
+
+
+def page_error(request):
+    return render(request, '500.html')
+
+
+def permission_denied(request):
+    return render(request, '403.html')
 

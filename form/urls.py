@@ -16,13 +16,21 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from rate import views as rate_views
+from rate.views import *
+
+
+handler403 = permission_denied
+handler404 = page_not_found
+handler500 = page_error
+
 
 urlpatterns = [
-    url(r'^admin', admin.site.urls),
-    url(r'^add_rate/$', rate_views.add_rate, name='add_rate'),
+    url(r'^admin/$', admin.site.urls),
+    # url(r'^add_rate/$', rate_views.add_rate, name='add_rate'),
     url(r'^success/$', rate_views.success, name='success'),
     url(r'^invalided/$', rate_views.invalided, name='invalided'),
     url(r'^pivot/$', rate_views.pivot, name='pivot'),
     url(r'^pivot_export/$', rate_views.pivot_export, name='pivot_export'),
     url(r'^778487/$', rate_views.add_rate, name='778487'),
 ]
+

@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '$u%t9f#qt^jm5vs*vw^f+clp%nvd&-nln=w1pp8rz8x=0laba+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'form.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,20 +75,20 @@ WSGI_APPLICATION = 'form.wsgi.application'
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-
     # 'default': {
-    # 'ENGINE': 'django.db.backends.mysql',
-    # 'NAME': '519389812$default',
-    # 'USER': '519389812',
-    # 'PASSWORD': 'zjss123456',
-    # 'HOST': '519389812.mysql.pythonanywhere-services.com',
-    # 'PORT': '3306',
-    # 'CHARSET':'utf8',
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
+
+    'default': {
+    'ENGINE': 'django.db.backends.mysql',
+    'NAME': '519389812$default',
+    'USER': '519389812',
+    'PASSWORD': 'zjss123456',
+    'HOST': '519389812.mysql.pythonanywhere-services.com',
+    'PORT': '3306',
+    'CHARSET':'utf8',
+    }
 }
 
 
@@ -128,12 +128,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
-HERE = os.path.dirname(os.path.abspath(__file__))
-HERE = os.path.join(HERE, '../')
+
 STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-    os.path.join(HERE, 'static/'),
+    os.path.join(BASE_DIR, 'static'),
 )

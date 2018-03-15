@@ -2,23 +2,321 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e04b47-2c05-4207-865c-bac85832d1a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/唐琴778487.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778487.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rate/migrations/0002_auto_20180216_2136.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rate/migrations/0003_auto_20180224_1430.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rate/migrations/0004_auto_20180224_1507.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rate/staff.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rate/templates/id778487.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/photos/id778487.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/apple-touch-icon-precomposed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/themify/themify.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/themify/themify.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/themify/themify.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/image_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/image_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/img_large_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/img_large_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/img_large_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/img_large_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/img_large_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/img_large_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/photos/唐琴778487.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/images/slide_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/fonts/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/fonts/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/calendar-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/gis/move_vertex_off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/gis/move_vertex_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-addlink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-alert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-changelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-deletelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-unknown-alt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-unknown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/icon-yes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/inline-delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/selector-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/sorting-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/tooltag-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/img/tooltag-arrowright.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/change_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/popup_response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/prepopulate_init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/vendor/xregexp/xregexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/boostrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/alerts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/badges.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/breadcrumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/button-groups.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/close.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/component-animations.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/dropdowns.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/glyphicons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/input-groups.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/jumbotron.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/labels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/list-group.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/media.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/media.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/alerts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/alerts.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/background-variant.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/background-variant.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/border-radius.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/border-radius.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/buttons.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/center-block.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/center-block.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/clearfix.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/clearfix.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/forms.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/gradients.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/gradients.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/grid-framework.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/grid-framework.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/hide-text.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/hide-text.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/image.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/labels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/labels.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/list-group.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/list-group.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/nav-divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/nav-divider.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/nav-vertical-align.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/nav-vertical-align.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/opacity.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/opacity.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/pagination.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/panels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/panels.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/progress-bar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/progress-bar.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/reset-filter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/reset-filter.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/resize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/resize.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/responsive-visibility.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/responsive-visibility.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/size.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/size.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/tab-focus.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/tab-focus.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/table-row.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/table-row.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/text-emphasis.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/text-emphasis.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/text-overflow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/text-overflow.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/vendor-prefixes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/mixins/vendor-prefixes.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/modals.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/navbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/navs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/normalize.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/panels.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/popovers.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/print.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/progress-bars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/responsive-embed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/responsive-embed.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/responsive-utilities.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/scaffolding.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/tables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/thumbnails.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/type.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/utilities.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/variables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/variables.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/bootstrap/wells.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/easy-responsive-tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/megafish.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/menu_slideside.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/owl.carousel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/owl.theme.default.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/style.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/superfish.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/css/themify-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/fonts/themify/themify.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/easyResponsiveTabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/hoverIntent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/inview.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/jquery.easing.1.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/jquery.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/modernizr-2.6.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/superfish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/js/supersubs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/_bootstrap-compass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/_bootstrap-mincer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/_bootstrap-sprockets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/badges.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/component-animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/dropdowns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/glyphicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/input-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/center-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/nav-vertical-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/opacity.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/progress-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/reset-filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/responsive-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/tab-focus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/text-overflow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/mixins/vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/modals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/navs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/pager.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/responsive-utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/thumbnails.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/bootstrap/wells.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/staticfiles/sass/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/migrations/0002_auto_20180315_0958.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-3.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/403.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/500.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form/settings.py" afterPath="$PROJECT_DIR$/form/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form/urls.py" afterPath="$PROJECT_DIR$/form/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/admin.py" afterPath="$PROJECT_DIR$/rate/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/forms.py" afterPath="$PROJECT_DIR$/rate/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/rate/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/models.py" afterPath="$PROJECT_DIR$/rate/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/templates/778487.html" afterPath="$PROJECT_DIR$/rate/templates/778487.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/templates/add_rate.html" afterPath="$PROJECT_DIR$/rate/templates/add_rate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/templates/invalided.html" afterPath="$PROJECT_DIR$/rate/templates/invalided.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/templates/success.html" afterPath="$PROJECT_DIR$/rate/templates/success.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rate/views.py" afterPath="$PROJECT_DIR$/rate/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
     </list>
@@ -34,53 +332,24 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="114">
+              <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rate/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rate/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_rate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rate/templates/add_rate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="130" column="18" lean-forward="false" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="778487.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="778487.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/templates/778487.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="186">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +357,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="113" column="49" lean-forward="true" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+            <state relative-caret-position="292">
+              <caret line="163" column="38" lean-forward="false" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -100,8 +369,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="254">
+              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
               </folding>
@@ -109,11 +378,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pivot.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rate/templates/pivot.html">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/form/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="107" column="24" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+            <state relative-caret-position="164">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,8 +391,8 @@
       <file leaf-file-name="invalided.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+            <state relative-caret-position="316">
+              <caret line="83" column="75" lean-forward="false" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -132,8 +401,8 @@
       <file leaf-file-name="success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="311">
+              <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -168,7 +437,13 @@
       <find>null</find>
       <find>id778487</find>
       <find>greet</find>
+      <find>auto</find>
       <find>fh5co-hero</find>
+      <find>path</find>
+      <find>cleaned</find>
+      <find>tem</find>
+      <find>ico</find>
+      <find>abspath</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Project\form\rate\templates</dir>
@@ -182,29 +457,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/rate/templates/index.html" />
-        <option value="$PROJECT_DIR$/rate/templates/invalided.html" />
-        <option value="$PROJECT_DIR$/rate/templates/success.html" />
         <option value="$PROJECT_DIR$/rate/templates/piovt.html" />
-        <option value="$PROJECT_DIR$/form/settings.py" />
         <option value="$PROJECT_DIR$/rate/templates/pivot.html" />
         <option value="$PROJECT_DIR$/rate/templates/add_rate_id123456.html" />
         <option value="$PROJECT_DIR$/rate/templates/id123456.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/rate/staff.py" />
-        <option value="$PROJECT_DIR$/rate/models.py" />
         <option value="$PROJECT_DIR$/rate/templates/id778487.html" />
-        <option value="$PROJECT_DIR$/rate/forms.py" />
-        <option value="$PROJECT_DIR$/form/urls.py" />
-        <option value="$PROJECT_DIR$/rate/admin.py" />
-        <option value="$PROJECT_DIR$/rate/views.py" />
         <option value="$PROJECT_DIR$/rate/templates/add_rate.html" />
+        <option value="$PROJECT_DIR$/rate/forms.py" />
+        <option value="$PROJECT_DIR$/rate/admin.py" />
+        <option value="$PROJECT_DIR$/rate/models.py" />
+        <option value="$PROJECT_DIR$/rate/views.py" />
+        <option value="$PROJECT_DIR$/rate/templates/404.html" />
+        <option value="$PROJECT_DIR$/rate/templates/403.html" />
         <option value="$PROJECT_DIR$/rate/templates/778487.html" />
+        <option value="$PROJECT_DIR$/rate/templates/500.html" />
+        <option value="$PROJECT_DIR$/rate/templates/success.html" />
+        <option value="$PROJECT_DIR$/rate/templates/invalided.html" />
+        <option value="$PROJECT_DIR$/form/urls.py" />
+        <option value="$PROJECT_DIR$/form/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="653" />
+    <option name="y" value="1" />
     <option name="width" value="752" />
     <option name="height" value="723" />
   </component>
@@ -224,6 +502,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,38 +510,10 @@
               <item name="form" type="b2602c69:ProjectViewProjectNode" />
               <item name="form" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="rate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="rate" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -308,22 +559,29 @@
       <option name="project" value="LOCAL" />
       <updated>1519795156863</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="01 06MAR18">
+      <created>1520314848938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520314848939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15960665" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17246597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27302632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -333,6 +591,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27302632" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17019667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -340,37 +618,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update 3 files" />
     <MESSAGE value="28FEB18 first" />
-    <option name="LAST_COMMIT_MESSAGE" value="28FEB18 first" />
+    <MESSAGE value="01 06MAR18" />
+    <option name="LAST_COMMIT_MESSAGE" value="01 06MAR18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="124" column="30" lean-forward="false" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rate/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -579,13 +834,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/piovt.html" />
     <entry file="file://$PROJECT_DIR$/rate/templates/add_rate_id123456.html" />
-    <entry file="file://$PROJECT_DIR$/form/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="134" column="30" lean-forward="false" selection-start-line="134" selection-start-column="30" selection-end-line="134" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/id123456.html" />
     <entry file="file://$PROJECT_DIR$/static/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -603,90 +851,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/id778487.html" />
     <entry file="file://$PROJECT_DIR$/rate/staff.py" />
-    <entry file="file://$PROJECT_DIR$/rate/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rate/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/add_rate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="112" column="51" lean-forward="true" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rate/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        <state relative-caret-position="114">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/add_rate.html">
+    <entry file="file://$PROJECT_DIR$/rate/templates/pivot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="130" column="18" lean-forward="false" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+        <state relative-caret-position="-1513">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form/urls.py">
+    <entry file="file://$PROJECT_DIR$/rate/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="109" column="19" lean-forward="false" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/pivot.html">
+    <entry file="file://$PROJECT_DIR$/rate/templates/403.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="107" column="24" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        <state relative-caret-position="437">
+          <caret line="98" column="67" lean-forward="false" selection-start-line="98" selection-start-column="67" selection-end-line="98" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="109" column="19" lean-forward="false" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+        <state relative-caret-position="316">
+          <caret line="83" column="75" lean-forward="false" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="311">
+          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rate/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="113" column="49" lean-forward="true" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+        <state relative-caret-position="292">
+          <caret line="163" column="38" lean-forward="false" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/778487.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="186">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#638#670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
