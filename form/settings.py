@@ -24,7 +24,7 @@ SECRET_KEY = '$u%t9f#qt^jm5vs*vw^f+clp%nvd&-nln=w1pp8rz8x=0laba+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-TEMPLATE_DEBUG = False
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
 
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'form.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates/'],
+        'DIRS': [],  # 'DIRS': ['templates/']
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
