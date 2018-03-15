@@ -25,7 +25,7 @@ handler500 = page_error
 
 
 urlpatterns = [
-    url(r'^admin/$', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
     # url(r'^add_rate/$', rate_views.add_rate, name='add_rate'),
     url(r'^success/$', rate_views.success, name='success'),
     url(r'^invalided/$', rate_views.invalided, name='invalided'),
