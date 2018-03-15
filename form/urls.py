@@ -33,4 +33,3 @@ urlpatterns = [
     url(r'^pivot_export/$', rate_views.pivot_export, name='pivot_export'),
     url(r'^778487/$', rate_views.add_rate, name='778487'),
 ]
-
