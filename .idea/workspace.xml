@@ -42,8 +42,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="163" column="38" lean-forward="false" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
+            <state relative-caret-position="202">
+              <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -54,7 +54,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="335">
               <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
@@ -66,8 +66,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521088355060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="02 15MAR18">
+      <created>1521091330201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521091330201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -317,7 +324,8 @@
     <MESSAGE value="28FEB18 first" />
     <MESSAGE value="01 06MAR18" />
     <MESSAGE value="01 15MAR18" />
-    <option name="LAST_COMMIT_MESSAGE" value="01 15MAR18" />
+    <MESSAGE value="02 15MAR18" />
+    <option name="LAST_COMMIT_MESSAGE" value="02 15MAR18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,6 +617,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="83" column="75" lean-forward="false" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="155" column="28" lean-forward="true" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/778487.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -632,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/form/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="335">
           <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#638#670#0" expanded="true" />
@@ -640,36 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="163" column="38" lean-forward="false" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="83" column="75" lean-forward="false" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding />
         </state>
       </provider>
