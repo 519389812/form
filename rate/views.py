@@ -129,7 +129,7 @@ def pivot_export(request):
                 w1.write(row, 1, data[s]['10'][i])
                 w1.write(row, 2, data[s]['11'][i])
                 w1.write(row, 3, data[s]['12'][i])
-                w1.write(row, 4, data[s]['13'][i])
+                w1.write(row, 4, str(data[s]['13'][i]))
                 row += 1
     response = HttpResponse(content_type='application/vnd.ms-excel')
     response['Content-Disposition'] = 'attachment;filename=Report {}-{}.xls'.format(date_from.date(), date_until.date())
