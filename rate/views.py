@@ -94,6 +94,7 @@ def pivot_export(request):
                 data[obj.staff]['10'] = []
                 data[obj.staff]['11'] = []
                 data[obj.staff]['12'] = []
+                data[obj.staff]['13'] = []
                 data[obj.staff]['0'] = id_
                 id_ += 1
                 data[obj.staff]['1'] = obj.staff
