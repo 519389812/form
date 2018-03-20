@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from rate.forms import PivotForm, RateForm
+from rate.forms import RateForm
 from django.http import HttpResponse, HttpResponseRedirect
 from rate.models import Rate
 import xlwt
@@ -18,7 +18,7 @@ def add_rate(request):
             ip = ''
         if ip != '':
             ip_database = Rate.objects.filter(ip_address=ip)
-            if len(ip_database) > 2:
+            if len(ip_database) > 1:
                 return HttpResponseRedirect('/invalided/')
         else:
             pass
@@ -78,7 +78,7 @@ def pivot_export(request):
                 data[obj.staff]['4'] = round(data[obj.staff]['3']/data[obj.staff]['2'], 2)
                 data[obj.staff]['5'] += obj.efficiency
                 data[obj.staff]['6'] = round(data[obj.staff]['5']/data[obj.staff]['2'], 2)
-                if obj.message != " ":
+                if obj.flight:
                     data[obj.staff]['7'] += 1
                     data[obj.staff]['10'].append(obj.flight)
                     data[obj.staff]['11'].append(obj.details)
@@ -100,7 +100,7 @@ def pivot_export(request):
                 data[obj.staff]['4'] = obj.service
                 data[obj.staff]['5'] = obj.efficiency
                 data[obj.staff]['6'] = obj.efficiency
-                if obj.message:
+                if obj.flight:
                     data[obj.staff]['7'] = 1
                     data[obj.staff]['10'].append(obj.flight)
                     data[obj.staff]['11'].append(obj.details)
@@ -120,7 +120,7 @@ def pivot_export(request):
             w.write(data[s]['0'], 7, data[s]['7'])
             w.write(data[s]['0'], 8, data[s]['8'])
             w.write(data[s]['0'], 9, data[s]['9'])
-            for i in range(data[s]['10']):
+            for i in range(len(data[s]['10'])):
                 w1.write(row, 0, data[s]['1'])
                 w1.write(row, 1, data[s]['10'][i])
                 w1.write(row, 2, data[s]['11'][i])
@@ -162,4 +162,3 @@ def page_error(request):
 
 def permission_denied(request):
     return render(request, '403.html')
-

@@ -195,13 +195,13 @@
 				<br class="row">
 					<div class="col-md-8">
 						<div align="center">
-							<img src="../../static/images/photos/唐琴778487.jpg" height="300" width="200" />
+							<img src="../../static/images/photos/张可欣778513.jpg" height="300" width="200" />
 						</div>
 						<form action="/add_rate/" method='POST' >
 							<div class="col-md-12">
 								<div class="form-group">
 									{% csrf_token %}
-									<div><input type="hidden" value="唐琴778487" name="staff" ></div>
+									<div><input type="hidden" value="张可欣778513" name="staff" ></div>
 									<div>服务水平 Service: <select id='service' type="select" required="required" name="service" class="form-control input-lg">
 										<option value=5>非常满意 Perfect</option>
 										<option value=4>满意 Good</option>
@@ -219,8 +219,8 @@
 									<div id='tips' style='display:none'>
 										<br/><p>非常抱歉，我们没能让您满意，请您留下详细情况，帮助我们提升服务。</p><br/><p>We are very sorry that we did not satisfy you. Please leave your details and help us improve our service.</p>
 									</div>
-									<div id='flightDiv' style='display:none'>航班 Flight: <input type="text" id='flight' name="flight" class="form-control input-lg"></div>
-									<div id='detailsDiv' style='display:none'>座位号 Seat number: <input type="text" id='details' name="details" class="form-control input-lg"></div>
+									<div id='flightDiv' style='display:none'>航班 Flight: <input type="text" id='flight' name="flight" class="form-control input-lg" maxlength=10></div>
+									<div id='detailsDiv' style='display:none'>座位号 Seat number: <input type="text" id='details' name="details" class="form-control input-lg" maxlength=10></div>
 									<div id='messageDiv' style='display:none'>情况描述 Brief description: <textarea id='message' class="form-control input-lg" placeholder="最大长度150个汉字  Max 300 characters" maxlength=300 name="message" rows="4"></textarea></div>
 								</div>
 							</div>
