@@ -84,7 +84,7 @@ def pivot_export(request):
                     data[obj.staff]['10'].append(obj.flight)
                     data[obj.staff]['11'].append(obj.details)
                     data[obj.staff]['12'].append(obj.message)
-                    data[obj.staff]['13'].append(obj.time)
+                    data[obj.staff]['13'].append(obj.time.date())
                 else:
                     pass
                 data[obj.staff]['8'] = data[obj.staff]['3'] + data[obj.staff]['5']
@@ -108,7 +108,7 @@ def pivot_export(request):
                     data[obj.staff]['10'].append(obj.flight)
                     data[obj.staff]['11'].append(obj.details)
                     data[obj.staff]['12'].append(obj.message)
-                    data[obj.staff]['13'].append(obj.time)
+                    data[obj.staff]['13'].append(obj.time.date())
                 else:
                     data[obj.staff]['7'] = 0
                 data[obj.staff]['8'] = obj.service + obj.efficiency
