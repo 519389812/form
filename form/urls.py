@@ -31,7 +31,6 @@ urlpatterns = [
     url(r'^invalided/$', rate_views.invalided, name='invalided'),
     url(r'^pivot/$', rate_views.pivot, name='pivot'),
     url(r'^pivot_export/$', rate_views.pivot_export, name='pivot_export'),
-
     url(r'^778513/$', rate_views.add_rate, name='张可欣778513'),
     url(r'^778520/$', rate_views.add_rate, name='朱梦丽778520'),
     url(r'^244850/$', rate_views.add_rate, name='邝晓盈244850'),
