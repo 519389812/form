@@ -66,6 +66,7 @@ def pivot_export(request):
     w1.write(0, 1, u"航班")
     w1.write(0, 2, u"座位号")
     w1.write(0, 3, u"留言")
+    w1.write(0, 4, u"日期")
     if list_obj:
         data = {}
         id_ = 1
@@ -83,10 +84,11 @@ def pivot_export(request):
                     data[obj.staff]['10'].append(obj.flight)
                     data[obj.staff]['11'].append(obj.details)
                     data[obj.staff]['12'].append(obj.message)
+                    data[obj.staff]['13'].append(obj.time)
                 else:
                     pass
                 data[obj.staff]['8'] = data[obj.staff]['3'] + data[obj.staff]['5']
-                data[obj.staff]['9'] = round(data[obj.staff]['8']/2, 2)
+                data[obj.staff]['9'] = round(data[obj.staff]['8']/2/data[obj.staff]['2'], 2)
             else:
                 data[obj.staff] = {}
                 data[obj.staff]['10'] = []
@@ -105,6 +107,7 @@ def pivot_export(request):
                     data[obj.staff]['10'].append(obj.flight)
                     data[obj.staff]['11'].append(obj.details)
                     data[obj.staff]['12'].append(obj.message)
+                    data[obj.staff]['13'].append(obj.time)
                 else:
                     data[obj.staff]['7'] = 0
                 data[obj.staff]['8'] = obj.service + obj.efficiency
@@ -125,6 +128,7 @@ def pivot_export(request):
                 w1.write(row, 1, data[s]['10'][i])
                 w1.write(row, 2, data[s]['11'][i])
                 w1.write(row, 3, data[s]['12'][i])
+                w1.write(row, 4, data[s]['13'][i])
                 row += 1
     response = HttpResponse(content_type='application/vnd.ms-excel')
     response['Content-Disposition'] = 'attachment;filename=服务评价报表.xls'
