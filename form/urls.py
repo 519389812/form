@@ -37,6 +37,7 @@ urlpatterns = [
 
     # 一室
     url(r'^776704/$', rate_views.add_rate, name='柏寒双776704'),
+    url(r'^778516/$', rate_views.add_rate, name='程考媚778516'),
     url(r'^770301/$', rate_views.add_rate, name='房志佳770301'),
     url(r'^778528/$', rate_views.add_rate, name='封慧秋778528'),
     url(r'^737483/$', rate_views.add_rate, name='黄秋燕737483'),
