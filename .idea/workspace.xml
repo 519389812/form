@@ -2,11 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e04b47-2c05-4207-865c-bac85832d1a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/严孟君716022.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/许智翀776648.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/严孟君716022.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/images/许智翀776648.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/任思冲249088.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/伍思249104.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/何翠244880.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/何蕴盈773866.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/余冰715567.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/佟彤249071.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/刘喆776548.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/刘家慧246141.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/吴丹丹732230.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/吴晓燕759018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/吴蕾776554.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/吴雪贞247495.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/唐琴778487.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/安碧蓉782626.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/尚冠宇225999.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/张巧巧776693.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/张志波773957.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/张敬晨244876.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/张文静768550.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/张方炜237320.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/徐慧226721.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/徐镯776718.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/方壮梅752132.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/方秋纯778495.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/朱浩贤227479.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/朱琳749211.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/朱骏铭246117.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李好238931.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李宝怡778462.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李思226723.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李绮雯241299.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李锐轩237288.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李雁宁778514.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/李颖娴771763.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/林丹玲782629.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/林妙璇238896.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/林燕铃776523.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/林雨纤778524.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/梁伟豪782611.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/梁嘉怡247497.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/梁晓彤246154.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/梁燕婷736121.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/江海铭226673.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/汪美珍778523.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/沈燕760037.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/王君然769981.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/王嘉楠778518.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/王宇宁778517.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/王晓丽730410.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/王英浩237306.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/童洪文715950.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/练楚倩238898.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/肖婷香715805.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/胡雪娜238897.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/莫俊华769975.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/袁丽琪247503.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/许煌芝778467.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/许莲紫226064.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/谢绮敏776562.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/谭思华247493.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/赵海226036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/邓杰776683.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/邓芷君770300.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/郑子扬 785398.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/郭筱苑778475.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/钟嘉莹752120.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/钟立星759691.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈丹736522.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈佳懿225936.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈嘉悦247497.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈媛媛749285.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈敬钦752098.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈明228348.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈素萍756613.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/陈连杰241309.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/马奇君766593.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/马奕斐249047.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄俊涛241302.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄健泓780157.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄冰238945.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄凡凡759431.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄卓君756647.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄婷婷225976.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄宝钻757958.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/黄泳诗238943.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/龚杨776707.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/225936.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/225976.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/225999.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/226036.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/226064.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/226673.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/226721.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/226723.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/227479.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/228348.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/237288.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/237306.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/237320.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/238896.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/238897.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/238898.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/238931.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/238943.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/238945.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/241299.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/241302.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/241309.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/244876.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/244880.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/246117.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/246141.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/246154.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/247493.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/247497.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/247503.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/247509.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/249047.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/249071.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/249088.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/249104.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/715567.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/715805.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/715950.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/730410.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/732230.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/736121.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/736522.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/749211.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/749285.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/752098.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/752120.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/752132.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/756613.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/756647.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/757958.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/759018.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/759431.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/759691.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/760037.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/766593.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/768550.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/769975.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/769981.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/770300.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/771763.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/773866.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/773957.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776523.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776548.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776554.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776562.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776683.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776693.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776707.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/776718.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778462.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778467.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778475.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778487.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778495.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778514.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778517.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778518.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778523.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/778524.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/780157.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/782611.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/782626.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/782629.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/785398.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form/urls.py" afterPath="$PROJECT_DIR$/form/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +198,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="-323">
               <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -42,8 +210,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/form/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+            <state relative-caret-position="190">
+              <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
               </folding>
@@ -121,6 +289,7 @@
       <find>邝晓</find>
       <find>叶彩霞</find>
       <find>77851</find>
+      <find>梁彩华</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Project\form\rate\templates</dir>
@@ -133,56 +302,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rate/admin.py" />
-        <option value="$PROJECT_DIR$/rate/models.py" />
-        <option value="$PROJECT_DIR$/rate/templates/404.html" />
-        <option value="$PROJECT_DIR$/rate/templates/403.html" />
-        <option value="$PROJECT_DIR$/rate/templates/500.html" />
-        <option value="$PROJECT_DIR$/rate/templates/success.html" />
-        <option value="$PROJECT_DIR$/rate/templates/invalided.html" />
-        <option value="$PROJECT_DIR$/templates/500.html" />
-        <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/templates/403.html" />
-        <option value="$PROJECT_DIR$/wsgi.py" />
-        <option value="$PROJECT_DIR$/form/settings.py" />
-        <option value="$PROJECT_DIR$/rate/templates/778487 - 副本 (2).html" />
-        <option value="$PROJECT_DIR$/rate/templates/778487 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/778487.html" />
-        <option value="$PROJECT_DIR$/rate/views.py" />
-        <option value="$PROJECT_DIR$/rate/templates/244850.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (2).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (3).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (4).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (5).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (6).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (7).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (8).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (9).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (10).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (11).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (12).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (13).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (14).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (15).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (16).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (17).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (18).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (19).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (20).html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (20) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (21) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (22) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (23) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (24) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (25) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (26) - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (26) - 副本 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (27) - 副本 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (28) - 副本 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (29) - 副本 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (29) - 副本 - 副本 - 副本.html" />
-        <option value="$PROJECT_DIR$/rate/templates/244850 - 副本 (30) - 副本 - 副本 - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (34).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (35).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (37).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (38).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (39).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (40).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (41).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (42).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (43).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (44).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (45).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (46).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (47).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (48).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (50).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (51).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (52).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (53).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (54).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (55).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (56).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (57).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (58).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (59).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (60).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (61).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (62).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (63).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (64).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (65).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (66).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (67).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (68).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (69).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (70).html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (71) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (72) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (73) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (74) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (75) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (76) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (77) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (78) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (79) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (80) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (81) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (82) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (83) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (84) - 副本.html" />
+        <option value="$PROJECT_DIR$/rate/templates/205596 - 副本 (85) - 副本.html" />
         <option value="$PROJECT_DIR$/form/urls.py" />
       </list>
     </option>
@@ -447,13 +616,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526041901668</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="04 11MAY18">
+      <created>1526042003262</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1526042003262</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18154311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18381241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -516,133 +693,419 @@
     <MESSAGE value="01 11MAY18" />
     <MESSAGE value="02 11MAY18" />
     <MESSAGE value="03 11MAY18" />
-    <option name="LAST_COMMIT_MESSAGE" value="03 11MAY18" />
+    <MESSAGE value="04 11MAY18" />
+    <MESSAGE value="01 16MAY18" />
+    <option name="LAST_COMMIT_MESSAGE" value="01 16MAY18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/404.html" />
-    <entry file="file://$PROJECT_DIR$/templates/403.html" />
-    <entry file="file://$PROJECT_DIR$/templates/500.html" />
-    <entry file="file://$PROJECT_DIR$/wsgi.py" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/778487.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/778487 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/778487 - 副本 (2).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/778513.html">
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (35).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="196" column="43" lean-forward="false" selection-start-line="196" selection-start-column="29" selection-end-line="196" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/778520.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="197" column="104" lean-forward="false" selection-start-line="197" selection-start-column="80" selection-end-line="197" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850.html">
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (37).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="197" column="74" lean-forward="false" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (2).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (3).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (4).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (5).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (6).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (7).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (8).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (9).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (10).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (11).html" />
-    <entry file="file://$PROJECT_DIR$/rate/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+        <state relative-caret-position="215">
+          <caret line="202" column="52" lean-forward="true" selection-start-line="202" selection-start-column="52" selection-end-line="202" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (12).html" />
-    <entry file="file://$PROJECT_DIR$/form/settings.py">
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (38).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="16" />
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (13).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (14).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (15).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (16).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (17).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (18).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (19).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (20).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (20) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (21) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (22) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (23) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (24) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (25) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (26) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (26) - 副本 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (27) - 副本 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (28) - 副本 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (29) - 副本 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (29) - 副本 - 副本 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/244850 - 副本 (30) - 副本 - 副本 - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/778516.html">
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (39).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (40).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="205" column="77" lean-forward="true" selection-start-line="205" selection-start-column="77" selection-end-line="205" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (41).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (42).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (43).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (44).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (45).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (46).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (47).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (48).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (50).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="197" column="74" lean-forward="false" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="74" />
+          <caret line="197" column="83" lean-forward="true" selection-start-line="197" selection-start-column="83" selection-end-line="197" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/photos/许智翀776648.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (51).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rate/templates/776648.html">
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (52).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3705">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (53).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (54).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (55).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (56).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (57).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (58).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (59).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="72" lean-forward="false" selection-start-line="203" selection-start-column="72" selection-end-line="203" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (60).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (61).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (62).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (63).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (64).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (65).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (66).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (67).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (68).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (69).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (70).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (71) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (72) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (73) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/247497.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3496">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (74) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="202" column="52" lean-forward="true" selection-start-line="202" selection-start-column="52" selection-end-line="202" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (75) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (76) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (77) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (78) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (79) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (80) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="204" column="90" lean-forward="true" selection-start-line="204" selection-start-column="90" selection-end-line="204" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (81) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="77" lean-forward="false" selection-start-line="203" selection-start-column="77" selection-end-line="203" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (82) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="202" column="52" lean-forward="true" selection-start-line="202" selection-start-column="52" selection-end-line="202" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (83) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (84) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="72" lean-forward="true" selection-start-line="203" selection-start-column="72" selection-end-line="203" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (85) - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="203" column="78" lean-forward="false" selection-start-line="203" selection-start-column="78" selection-end-line="203" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+        <state relative-caret-position="190">
+          <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
           <folding>
             <element signature="e#638#670#0" expanded="true" />
           </folding>
