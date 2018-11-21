@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e04b47-2c05-4207-865c-bac85832d1a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/photos/吴俊226006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rate/templates/226006.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +28,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
+            <state relative-caret-position="1311">
               <caret line="69" column="16" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -38,8 +40,8 @@
       <file leaf-file-name="226006.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rate/templates/226006.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="186" column="89" lean-forward="false" selection-start-line="186" selection-start-column="89" selection-end-line="186" selection-end-column="89" />
+            <state relative-caret-position="209">
+              <caret line="197" column="12" lean-forward="false" selection-start-line="197" selection-start-column="12" selection-end-line="197" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -48,8 +50,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="156" column="57" lean-forward="false" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="57" />
+            <state relative-caret-position="278">
+              <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding>
                 <element signature="e#638#670#0" expanded="true" />
               </folding>
@@ -60,8 +62,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/form/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1577">
-              <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="16" />
+            <state relative-caret-position="88">
+              <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,7 +72,7 @@
       <file leaf-file-name="invalided.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
+            <state relative-caret-position="19">
               <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
               <folding />
             </state>
@@ -80,7 +82,7 @@
       <file leaf-file-name="success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1558">
+            <state relative-caret-position="19">
               <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="32" />
               <folding />
             </state>
@@ -482,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542812429408</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="02 12NOV18">
+      <created>1542813389809</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1542813389809</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -555,16 +564,14 @@
     <MESSAGE value="01 16MAY18" />
     <MESSAGE value="02 16MAY18" />
     <MESSAGE value="01 12NOV18" />
-    <option name="LAST_COMMIT_MESSAGE" value="01 12NOV18" />
+    <MESSAGE value="02 12NOV18" />
+    <option name="LAST_COMMIT_MESSAGE" value="02 12NOV18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (42).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (43).html" />
-    <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (44).html" />
     <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (45).html" />
     <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (46).html" />
     <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (47).html" />
@@ -612,14 +619,6 @@
     <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (83) - 副本.html" />
     <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (84) - 副本.html" />
     <entry file="file://$PROJECT_DIR$/rate/templates/205596 - 副本 (85) - 副本.html" />
-    <entry file="file://$PROJECT_DIR$/rate/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/752098.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -643,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rate/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="1311">
           <caret line="69" column="16" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -651,20 +650,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rate/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/form/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="156" column="57" lean-forward="false" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="57" />
+        <state relative-caret-position="278">
+          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding>
             <element signature="e#638#670#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/invalided.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rate/templates/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rate/templates/226006.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="186" column="89" lean-forward="false" selection-start-line="186" selection-start-column="89" selection-end-line="186" selection-end-column="89" />
+        <state relative-caret-position="209">
+          <caret line="197" column="12" lean-forward="false" selection-start-line="197" selection-start-column="12" selection-end-line="197" selection-end-column="12" />
           <folding />
         </state>
       </provider>
