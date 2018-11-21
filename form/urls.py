@@ -154,5 +154,6 @@ urlpatterns = [
     url(r'^244876/$', rate_views.add_rate, name='张敬晨244876'),
     url(r'^785398/$', rate_views.add_rate, name='郑子扬785398'),
     url(r'^246117/$', rate_views.add_rate, name='朱骏铭246117'),
+    url(r'^226006/$', rate_views.add_rate, name='吴俊226006'),
 
 ]
